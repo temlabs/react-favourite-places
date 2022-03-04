@@ -1,4 +1,3 @@
-import { greet } from "./utils/greet";
 import PageHeader from "./PageHeader";
 import MainContent from "./MainContent";
 import PageFooter from "./PageFooter";
