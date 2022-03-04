@@ -1,5 +1,3 @@
-
-
 interface PlaceProps {
   title: string;
   placeName: string;
@@ -27,7 +25,7 @@ function Place({
           {placeName}, {countryName}
         </em>
       </h3>
-      <img src={imageURL} alt={imageAlt}/>
+      <img src={imageURL} alt={imageAlt} />
       <p>{description}</p>
     </section>
   );

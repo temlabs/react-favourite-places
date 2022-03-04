@@ -1,5 +1,5 @@
 import Place from "./components/Place";
-import bellFarm from "/home/2202-008-itl/Developer/Academy/Training/react-favourite-places/src/images/32_bell_farm_ave.jpeg"
+import bellFarm from "/home/2202-008-itl/Developer/Academy/Training/react-favourite-places/src/images/32_bell_farm_ave.jpeg";
 
 function MainContent(): JSX.Element {
   return (
@@ -7,9 +7,7 @@ function MainContent(): JSX.Element {
       title={"The Road Where it All Began"}
       placeName={"32 Bell Farm Ave"}
       countryName={"UK"}
-      imageURL={
-        bellFarm
-      }
+      imageURL={bellFarm}
       imageAlt={
         "The leftmost house of a terrace row in London. It has a hedge infront of it. The house has a combination of grey/beige stone pannelling and white windows and doors. The weather is grey."
       }
