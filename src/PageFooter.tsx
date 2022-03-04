@@ -7,10 +7,10 @@ function PageFooter(): JSX.Element {
         friends below.
       </p>
       <nav>
-        <a href="https://www.google.com">Abdul</a> | 
-        <a href="https://www.google.com">Laura</a> | 
-        <a href="https://www.google.com">Owen</a> | 
-        <a href="https://www.google.com">Soso</a> | 
+        <a href="https://www.google.com">Abdul</a> |
+        <a href="https://www.google.com">Laura</a> |
+        <a href="https://www.google.com">Owen</a> |
+        <a href="https://www.google.com">Soso</a> |
       </nav>
     </footer>
   );
