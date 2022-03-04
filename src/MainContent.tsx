@@ -1,5 +1,5 @@
 import Place from "./components/Place";
-import bellFarm from "/home/2202-008-itl/Developer/Academy/Training/react-favourite-places/src/images/32_bell_farm_ave.jpeg";
+import bellFarm from "./images/32_bell_farm_ave.jpeg";
 
 function MainContent(): JSX.Element {
   return (
