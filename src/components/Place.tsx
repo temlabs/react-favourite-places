@@ -18,15 +18,19 @@ function Place({
   description,
 }: PlaceProps): JSX.Element {
   return (
-    <section>
-      <h2>{title}</h2>
-      <h3>
-        <em>
-          {placeName}, {countryName}
-        </em>
-      </h3>
-      <img src={imageURL} alt={imageAlt} />
-      <p>{description}</p>
+    <section className="place">
+      <div>
+        <h2>{title}</h2>
+        <h3>
+          <em>
+            {placeName}, {countryName}
+          </em>
+        </h3>
+        <img src={imageURL} alt={imageAlt} />
+      </div>
+      <div>
+        <p>{description}</p>
+      </div>
     </section>
   );
 }
