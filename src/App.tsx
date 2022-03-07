@@ -6,7 +6,6 @@ import "./styles/main-styles.css";
 function App(): JSX.Element {
   return (
     <>
-      <link rel="stylesheet" href="/styles/main-styles.css"/>
       <PageHeader />
       <MainContent />
       <PageFooter />
