@@ -1,10 +1,12 @@
 import PageHeader from "./PageHeader";
 import MainContent from "./MainContent";
 import PageFooter from "./PageFooter";
+import "./styles/main-styles.css";
 
 function App(): JSX.Element {
   return (
     <>
+      <link rel="stylesheet" href="/styles/main-styles.css"/>
       <PageHeader />
       <MainContent />
       <PageFooter />
