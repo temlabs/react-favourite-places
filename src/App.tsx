@@ -1,12 +1,10 @@
 import PageHeader from "./PageHeader";
 import MainContent from "./MainContent";
 import PageFooter from "./PageFooter";
-import PageHead from "./PageHead";
 
 function App(): JSX.Element {
   return (
     <>
-      <PageHead />
       <PageHeader />
       <MainContent />
       <PageFooter />
